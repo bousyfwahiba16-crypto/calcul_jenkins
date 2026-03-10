@@ -17,4 +17,9 @@ pipeline {
             }
         }
     }
+    post {
+        success {
+            echo 'Bravo, déploiement réussi !'
+        }
+    }
 }
